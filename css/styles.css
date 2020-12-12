@@ -1,0 +1,166 @@
+/*color palette: https://colorhunt.co/palette/207057*/
+body {
+    font-family: 'Roboto Slab', serif;
+    margin: 0;
+    text-align: center;
+    color: #40514E;
+}
+h1 {
+    color: #006a71;
+    font-family: 'Sacramento', cursive; /*'Raleway', sans-serif;*/
+    font-size: 5.625rem;
+    font-weight: normal;
+    margin: 50px auto 0 auto;
+}
+
+h2 {
+    color: #006a71;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    font-weight: normal;
+    letter-spacing: 2px;
+}
+
+h3 {
+    color: #68b0ab;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 2px;
+}
+
+hr {
+  border: dotted #ff7e67 6px;
+  border-bottom: none;
+  margin: 70px auto;
+  width: 5%;
+}
+/*class selectors*/
+.top-cloud {
+  position: absolute;
+  top: 40px;
+  right: 200px;
+}
+
+.top-container {
+  background-color: #ecf4f3;
+  position: relative;
+  padding-top:100px;
+}
+
+.middle-container {
+  padding: 100px 0;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 200px;
+  bottom: 300px;
+}
+
+.bottom-container {
+  background-color: #68b0ab;
+  padding: 20px;
+}
+
+.books-img {
+  float: left;
+  margin-right: 30px;
+  width: 20%
+}
+
+.BUTTON_LYW {
+   background: #FF7E67;
+   background-image: -webkit-linear-gradient(top, #FF7E67, #FF7E67);
+   background-image: -moz-linear-gradient(top, #FF7E67, #FF7E67);
+   background-image: -ms-linear-gradient(top, #FF7E67, #FF7E67);
+   background-image: -o-linear-gradient(top, #FF7E67, #FF7E67);
+   background-image: -webkit-gradient(to bottom, #FF7E67, #FF7E67);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 10px;
+   color: #FFFFFF;
+   font-family: 'Roboto Slab', serif;
+   font-size: 16px;
+   font-weight: 500;
+   letter-spacing: 1px;
+   padding: 14px;
+   text-shadow: 1px 1px 52px #FFFFFF;
+   border: solid #FF7E67 1px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+   margin-top: 40px;
+}
+
+.BUTTON_LYW:hover {
+   border: solid #006A71 1px;
+   background: #006A71;
+   background-image: -webkit-linear-gradient(top, #006A71, #006A71);
+   background-image: -moz-linear-gradient(top, #006A71, #006A71);
+   background-image: -ms-linear-gradient(top, #006A71, #006A71);
+   background-image: -o-linear-gradient(top, #006A71, #006A71);
+   background-image: -webkit-gradient(to bottom, #006A71, #006A71);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 10px;
+   text-decoration: none;
+}
+
+.contract-img {
+  float: right;
+  margin-left: 30px;
+  width: 20%
+}
+
+.copyright {
+  color: #006a71;
+  margin-top: 50px;
+  font-size: 0.75rem;
+}
+
+.cr-link {
+  color: #006a71;
+  text-decoration: none;
+}
+
+.cr-link:hover {
+  color: white;
+}
+
+.footer-link {
+  color: #006a71;
+  margin-left: 20px;
+  margin-right: 20px;
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  color: white;
+}
+
+.glasses-img {
+  float: right;
+  margin-left: 30px;
+  width: 20%
+}
+
+.prof-pic {
+  margin-top: 30px;
+}
+
+.tablet-img {
+  float: left;
+  margin-right: 30px;
+  width: 20%
+}
+
+.skill-row {
+  line-height: 2;
+  margin: 100px auto;
+  text-align: left;
+  width: 50%;
+}
+
+.trees {
+  margin-top: 50px;
+}
